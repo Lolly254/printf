@@ -1,5 +1,6 @@
 Ignore text files
 
 
-main.c
+
 push
+.vscode
