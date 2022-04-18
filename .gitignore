@@ -4,3 +4,4 @@ Ignore text files
 
 push
 .vscode
+main.c
