@@ -13,8 +13,7 @@ char *ptr;
 
 ptr = &array[99];
 *ptr = '\0';
-do
-{
+do{
 *--ptr = symbols[num % base];
 num /= base;
 } while (num != 0);

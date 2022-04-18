@@ -14,21 +14,8 @@ int len2;
 unsigned int ui;
 void *addr;
 
-// len = _printf("%S\n", "Holberton\nSchool");
-// len2 = printf("%S\n", "Holberton\nSchool");
-//_printf("Length yo:[%d, %i]\n", len, len);
-// printf("Length ellos:[%d, %i]\n", len2, len2);
-
-len = _printf("rot13%R\n", "Holberton School");
-// len2 = printf("rot13%R\n", "Holberton School");
+len = _printf("rot13%R\n", "Main School");
 _printf("Length yo:[%d, %i]\n", len, len);
-// printf("Length ellos:[%d, %i]\n", len2, len2);
-
-// len = _printf("%S\n", "Holberton\nSchool");
-// len2 = printf("%S\n", "Holberton\nSchool");
-//_printf("Length yo:[%d, %i]\n", len, len);
-// printf("Length ellos:[%d, %i]\n", len2, len2);
-
 len =
 _printf("suma maximos:%d + %d = %d\n", INT_MIN, INT_MAX, (INT_MIN + INT_MAX));
 len2 =
@@ -73,9 +60,6 @@ len = _printf("%c%cth %s%s a%cg%s: Y%sou %s no%ching%s Snow.%c", 'W', 'i',
 len2 = printf("%c%cth %s%s a%cg%s: Y%sou %s no%ching%s Snow.%c", 'W', 'i',
               "some", "more", 'r', "s", "", "know", 't', ",Jon", '\n');
 
-// len =  _printf("%c%cth %s%s a%cg%s: me\n", 'W','i', "some", "more", 'r',
-// "s"); len2 =  printf("%c%cth %s%s a%cg%s: me\n", 'W','i', "some", "more",
-// 'r', "s");
 _printf("Length yo:[%d, %i]\n", len, len);
 printf("Length ellos:[%d, %i]\n", len2, len2);
 len = _printf("%kjm");
@@ -90,7 +74,6 @@ len = _printf("Complete the sentence: You %s nothig. Jon snow. \n", (char *)0);
 len2 = printf("Complete the sentence: You %s nothig. Jon snow. \n", (char *)0);
 _printf("Length yo:[%d, %i]\n", len, len);
 printf("Length ellos:[%d, %i]\n", len2, len2);
-// printf("String:[%s]\n", "I am a string !");
 len = _printf(NULL);
 len2 = printf(NULL);
 ui = (unsigned int)INT_MAX + 1024;
@@ -99,8 +82,6 @@ _printf("Length yo:[%d, %i]\n", len, len);
 printf("Length ellos:[%d, %i]\n", len2, len2);
 len = _printf("%!\n");
 len2 = printf("%!\n");
-// len = _printf("impresion de vacio%shola\n", "");
-// len2 = _printf("impresion de vacio%shola\n", "");
 _printf("Length yo:[%d, %i]\n", len, len);
 printf("Length ellos:[%d, %i]\n", len2, len2);
 len = _printf("%k\n");
@@ -145,7 +126,5 @@ len = _printf("Percent:[%%]\n");
 len2 = printf("Percent:[%%]\n");
 _printf("Len:[%d]\n", len);
 printf("Len:[%d]\n", len2);
-//  _printf("Unknown:[%r]\n");
-//  printf("Unknown:[%r]\n");
 return (0);
 }
