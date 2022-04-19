@@ -17,7 +17,7 @@ a = _printf("%R\n", "hello");
 _printf("%d\n", a);
 a = printf("%s\n", "hello");
 printf("%d\n", a);
-a = _printf("%R\n", "Holberton school");
+a = _printf("%R\n", "main school");
 printf("%d\n", a);
 return (0);
 }

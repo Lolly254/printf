@@ -1,1 +1,1 @@
-# ALX printf team project
+This project encapsulates the printf function
